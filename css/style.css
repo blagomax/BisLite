@@ -332,7 +332,7 @@ justify-content: space-between;
 }
 
 .works__inner{
-    padding: 20px 100px 40px;
+    padding: 20px 0px 40px;
     border-top: 1px solid #dfe1e5;
     border-bottom: 1px solid #dfe1e5;
     justify-content: center;
@@ -448,12 +448,12 @@ color: #363636;
 
 .download{
     margin-top: 40px;
+    margin-bottom: 40px;
     padding: 30px 40px 30px 30px;
-    border: 1px soled #81e4ed;
+    border: 1px solid #81e4ed;
     background-color: #e8fcfe;
     display: flex;
     justify-content: space-between;
-
 }
 
 .download__text{
@@ -464,18 +464,20 @@ color: #363636;
 }
 
 .download__btn a{
+ padding: 20px 20px 20px 70px;
+ position: relative;
  border: 1px solid rgb(42, 172, 200);
+ border-radius: 8px;
  font-weight: 700;
  text-transform: uppercase;
  font-style: 18px;
  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2),inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
  background: linear-gradient( to top, rgb(42,172,200) 0%, rgb(96,206,222) 15%, rgb(114,218,230) 50%, rgb(129,228,237) 100%);
  padding: 20px 20px 20px 70px;
- position: relative;
 }
 
 .download__btn a::before{
-    content: '';
+content: '';
 position: absolute;
 background-image: url(../images/clients/download.svg);
 width: 28px;
@@ -570,11 +572,10 @@ top: 16px;
     justify-content: space-between;
 }
 
-.footer__copy{
+.footer_copy{
     font-size: 13px;
     line-height: 18px;
     color: #363636;
     max-width: 650px;
-
 }
 
